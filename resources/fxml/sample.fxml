@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="335.0" prefWidth="419.0" stylesheets="/CSS/z4.css" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <BorderPane prefHeight="343.0" prefWidth="441.0">
+            <top>
+                <HBox fx:id="topbox" prefHeight="35.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Button mnemonicParsing="false" text="Add">
+                            <HBox.margin>
+                                <Insets bottom="10.0" left="40.0" right="10.0" top="10.0" />
+                            </HBox.margin>
+                            <padding>
+                                <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+                            </padding>
+                        </Button>
+                        <Button mnemonicParsing="false" text="Remove">
+                            <HBox.margin>
+                                <Insets bottom="10.0" left="33.0" right="10.0" top="10.0" />
+                            </HBox.margin>
+                            <padding>
+                                <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+                            </padding>
+                        </Button>
+                        <Button alignment="TOP_RIGHT" mnemonicParsing="false" text="?">
+                            <HBox.margin>
+                                <Insets bottom="10.0" left="240.0" right="10.0" top="10.0" />
+                            </HBox.margin>
+                            <padding>
+                                <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+                            </padding>
+                        </Button>
+                    </children>
+                </HBox>
+            </top>
+            <left>
+                <VBox fx:id="leftbox" prefHeight="289.0" prefWidth="124.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Label fx:id="data" text="Data">
+                            <VBox.margin>
+                                <Insets bottom="10.0" left="10.0" right="10.0" />
+                            </VBox.margin>
+                            <padding>
+                                <Insets bottom="10.0" left="10.0" right="10.0" />
+                            </padding>
+                        </Label>
+                        <Label text="Cost">
+                            <VBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" />
+                            </VBox.margin>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label text="Goods">
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                            <VBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </VBox.margin>
+                        </Label>
+                        <Label text="Employees">
+                            <VBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </VBox.margin>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                        <Label text="Departments">
+                            <VBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </VBox.margin>
+                            <padding>
+                                <Insets left="30.0" />
+                            </padding>
+                        </Label>
+                    </children>
+                </VBox>
+            </left>
+            <center>
+                <BorderPane fx:id="centar" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                    <left>
+                        <Label text="&gt;45years" BorderPane.alignment="CENTER">
+                            <BorderPane.margin>
+                                <Insets bottom="10.0" left="10.0" right="10.0" />
+                            </BorderPane.margin></Label>
+                    </left>
+                    <top>
+                        <HBox prefHeight="49.0" prefWidth="356.0" BorderPane.alignment="CENTER">
+                            <children>
+                                <ImageView fitHeight="49.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../img/x-09-512.png" />
+                                    </image></ImageView>
+                                <Label contentDisplay="CENTER" text="Employees">
+                                    <HBox.margin>
+                                        <Insets left="80.0" top="17.0" />
+                                    </HBox.margin></Label>
+                            </children>
+                        </HBox>
+                    </top>
+                    <center>
+                        <ImageView fitHeight="203.0" fitWidth="186.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                            <image>
+                                <Image url="@../img/66-512.png" />
+                            </image></ImageView>
+                    </center>
+                    <right>
+                        <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+                            <children>
+                                <Label text="28-45years">
+                                    <VBox.margin>
+                                        <Insets left="10.0" top="50.0" />
+                                    </VBox.margin>
+                                </Label>
+                                <Label text="&lt;28years">
+                                    <VBox.margin>
+                                        <Insets left="10.0" top="90.0" />
+                                    </VBox.margin>
+                                </Label>
+                            </children>
+                        </VBox>
+                    </right></BorderPane>
+            </center>
+        </BorderPane>
+    </children>
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+</GridPane>

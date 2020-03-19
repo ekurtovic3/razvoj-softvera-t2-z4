@@ -1,0 +1,12 @@
+#data{
+    -fx-font-size: 20px;
+}
+#leftbox{
+    -fx-background-color: greenyellow;
+}
+#topbox{
+    -fx-background-color: greenyellow;
+}
+#centar{
+    -fx-background-color: steelblue;
+}
